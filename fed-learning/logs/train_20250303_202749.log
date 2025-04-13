@@ -1,0 +1,704 @@
+Namespace(epochs=400, num_users=10, active_users=1, asynchronous=True, rounds=15, freq=5, time_weighted=True, a=1.3591409142295225, model='cnn', local_ep=5, local_bs=10, bs=128, lr=0.01, momentum=0.5, dataset='mnist', iid=False, gpu=0, seed=42, keep_log=True, pretrained=True, all_clients=True, device=device(type='cuda', index=0))
+Output directory: output/mnist_cnn_10_1_lr0.01_niid_async_5_tw_1.3591_all_clients
+Clients sample number:  [1395, 1483, 1586, 1067, 1583, 1007, 1125, 1027, 1070, 1204]
+Pretrained weights loaded. Resume training from epoch #300
+Epoch #300
+Download all layers
+Upload all layers
+Training client #6
+Round 300, Average loss 0.148
+Training accuracy: 0.5214,Training loss: 0.0151
+Testing accuracy: 0.5226,Testing loss: 0.0152
+Epoch #301
+Download all layers
+Upload only shallow layers
+Training client #0
+Round 301, Average loss 0.148
+Training accuracy: 0.5226,Training loss: 0.0151
+Testing accuracy: 0.5237,Testing loss: 0.0152
+Epoch #302
+Download only shallow layers
+Upload only shallow layers
+Training client #4
+Round 302, Average loss 0.149
+Training accuracy: 0.5217,Training loss: 0.0151
+Testing accuracy: 0.5230,Testing loss: 0.0152
+Epoch #303
+Download only shallow layers
+Upload only shallow layers
+Training client #3
+Round 303, Average loss 0.165
+Training accuracy: 0.5229,Training loss: 0.0151
+Testing accuracy: 0.5238,Testing loss: 0.0152
+Epoch #304
+Download only shallow layers
+Upload only shallow layers
+Training client #9
+Round 304, Average loss 0.147
+Training accuracy: 0.5222,Training loss: 0.0151
+Testing accuracy: 0.5232,Testing loss: 0.0152
+Epoch #305
+Download only shallow layers
+Upload only shallow layers
+Training client #2
+Round 305, Average loss 0.148
+Training accuracy: 0.5227,Training loss: 0.0151
+Testing accuracy: 0.5238,Testing loss: 0.0152
+Epoch #306
+Download only shallow layers
+Upload only shallow layers
+Training client #3
+Round 306, Average loss 0.152
+Training accuracy: 0.5215,Training loss: 0.0151
+Testing accuracy: 0.5230,Testing loss: 0.0152
+Epoch #307
+Download only shallow layers
+Upload only shallow layers
+Training client #4
+Round 307, Average loss 0.147
+Training accuracy: 0.5224,Training loss: 0.0151
+Testing accuracy: 0.5237,Testing loss: 0.0152
+Epoch #308
+Download only shallow layers
+Upload only shallow layers
+Training client #6
+Round 308, Average loss 0.148
+Training accuracy: 0.5227,Training loss: 0.0151
+Testing accuracy: 0.5239,Testing loss: 0.0152
+Epoch #309
+Download only shallow layers
+Upload only shallow layers
+Training client #7
+Round 309, Average loss 0.150
+Training accuracy: 0.5236,Training loss: 0.0150
+Testing accuracy: 0.5246,Testing loss: 0.0152
+Epoch #310
+Download only shallow layers
+Upload only shallow layers
+Training client #6
+Round 310, Average loss 0.148
+Training accuracy: 0.5236,Training loss: 0.0150
+Testing accuracy: 0.5248,Testing loss: 0.0152
+Epoch #311
+Download only shallow layers
+Upload all layers
+Training client #6
+Round 311, Average loss 0.148
+Training accuracy: 0.4409,Training loss: 0.0158
+Testing accuracy: 0.4537,Testing loss: 0.0159
+Epoch #312
+Download all layers
+Upload all layers
+Training client #3
+Round 312, Average loss 0.149
+Training accuracy: 0.6740,Training loss: 0.0142
+Testing accuracy: 0.6853,Testing loss: 0.0142
+Epoch #313
+Download all layers
+Upload all layers
+Training client #6
+Round 313, Average loss 0.147
+Training accuracy: 0.6556,Training loss: 0.0143
+Testing accuracy: 0.6700,Testing loss: 0.0143
+Epoch #314
+Download all layers
+Upload all layers
+Training client #4
+Round 314, Average loss 0.147
+Training accuracy: 0.6256,Training loss: 0.0144
+Testing accuracy: 0.6296,Testing loss: 0.0145
+Epoch #315
+Download all layers
+Upload all layers
+Training client #3
+Round 315, Average loss 0.147
+Training accuracy: 0.6976,Training loss: 0.0139
+Testing accuracy: 0.7028,Testing loss: 0.0140
+Epoch #316
+Download all layers
+Upload only shallow layers
+Training client #4
+Round 316, Average loss 0.147
+Training accuracy: 0.6961,Training loss: 0.0139
+Testing accuracy: 0.7011,Testing loss: 0.0140
+Epoch #317
+Download only shallow layers
+Upload only shallow layers
+Training client #8
+Round 317, Average loss 0.146
+Training accuracy: 0.6974,Training loss: 0.0139
+Testing accuracy: 0.7021,Testing loss: 0.0140
+Epoch #318
+Download only shallow layers
+Upload only shallow layers
+Training client #3
+Round 318, Average loss 0.147
+Training accuracy: 0.6972,Training loss: 0.0139
+Testing accuracy: 0.7021,Testing loss: 0.0140
+Epoch #319
+Download only shallow layers
+Upload only shallow layers
+Training client #1
+Round 319, Average loss 0.148
+Training accuracy: 0.6989,Training loss: 0.0139
+Testing accuracy: 0.7029,Testing loss: 0.0140
+Epoch #320
+Download only shallow layers
+Upload only shallow layers
+Training client #1
+Round 320, Average loss 0.147
+Training accuracy: 0.6978,Training loss: 0.0139
+Testing accuracy: 0.7020,Testing loss: 0.0140
+Epoch #321
+Download only shallow layers
+Upload only shallow layers
+Training client #1
+Round 321, Average loss 0.147
+Training accuracy: 0.6977,Training loss: 0.0139
+Testing accuracy: 0.7022,Testing loss: 0.0140
+Epoch #322
+Download only shallow layers
+Upload only shallow layers
+Training client #3
+Round 322, Average loss 0.147
+Training accuracy: 0.6974,Training loss: 0.0139
+Testing accuracy: 0.7020,Testing loss: 0.0140
+Epoch #323
+Download only shallow layers
+Upload only shallow layers
+Training client #1
+Round 323, Average loss 0.147
+Training accuracy: 0.6972,Training loss: 0.0139
+Testing accuracy: 0.7020,Testing loss: 0.0140
+Epoch #324
+Download only shallow layers
+Upload only shallow layers
+Training client #7
+Round 324, Average loss 0.147
+Training accuracy: 0.6982,Training loss: 0.0139
+Testing accuracy: 0.7023,Testing loss: 0.0140
+Epoch #325
+Download only shallow layers
+Upload only shallow layers
+Training client #4
+Round 325, Average loss 0.147
+Training accuracy: 0.6988,Training loss: 0.0139
+Testing accuracy: 0.7036,Testing loss: 0.0140
+Epoch #326
+Download only shallow layers
+Upload all layers
+Training client #2
+Round 326, Average loss 0.147
+Training accuracy: 0.2861,Training loss: 0.0169
+Testing accuracy: 0.2906,Testing loss: 0.0171
+Epoch #327
+Download all layers
+Upload all layers
+Training client #6
+Round 327, Average loss 0.151
+Training accuracy: 0.3655,Training loss: 0.0164
+Testing accuracy: 0.3659,Testing loss: 0.0165
+Epoch #328
+Download all layers
+Upload all layers
+Training client #5
+Round 328, Average loss 0.158
+Training accuracy: 0.5089,Training loss: 0.0154
+Testing accuracy: 0.5084,Testing loss: 0.0155
+Epoch #329
+Download all layers
+Upload all layers
+Training client #3
+Round 329, Average loss 0.156
+Training accuracy: 0.4989,Training loss: 0.0154
+Testing accuracy: 0.4963,Testing loss: 0.0155
+Epoch #330
+Download all layers
+Upload all layers
+Training client #5
+Round 330, Average loss 0.147
+Training accuracy: 0.5629,Training loss: 0.0149
+Testing accuracy: 0.5660,Testing loss: 0.0150
+Epoch #331
+Download all layers
+Upload only shallow layers
+Training client #4
+Round 331, Average loss 0.148
+Training accuracy: 0.5661,Training loss: 0.0148
+Testing accuracy: 0.5684,Testing loss: 0.0150
+Epoch #332
+Download only shallow layers
+Upload only shallow layers
+Training client #9
+Round 332, Average loss 0.147
+Training accuracy: 0.5668,Training loss: 0.0148
+Testing accuracy: 0.5690,Testing loss: 0.0150
+Epoch #333
+Download only shallow layers
+Upload only shallow layers
+Training client #8
+Round 333, Average loss 0.146
+Training accuracy: 0.5668,Training loss: 0.0148
+Testing accuracy: 0.5691,Testing loss: 0.0150
+Epoch #334
+Download only shallow layers
+Upload only shallow layers
+Training client #2
+Round 334, Average loss 0.147
+Training accuracy: 0.5666,Training loss: 0.0148
+Testing accuracy: 0.5693,Testing loss: 0.0149
+Epoch #335
+Download only shallow layers
+Upload only shallow layers
+Training client #8
+Round 335, Average loss 0.146
+Training accuracy: 0.5666,Training loss: 0.0148
+Testing accuracy: 0.5693,Testing loss: 0.0149
+Epoch #336
+Download only shallow layers
+Upload only shallow layers
+Training client #2
+Round 336, Average loss 0.147
+Training accuracy: 0.5671,Training loss: 0.0148
+Testing accuracy: 0.5695,Testing loss: 0.0149
+Epoch #337
+Download only shallow layers
+Upload only shallow layers
+Training client #3
+Round 337, Average loss 0.147
+Training accuracy: 0.5671,Training loss: 0.0148
+Testing accuracy: 0.5694,Testing loss: 0.0149
+Epoch #338
+Download only shallow layers
+Upload only shallow layers
+Training client #1
+Round 338, Average loss 0.147
+Training accuracy: 0.5669,Training loss: 0.0148
+Testing accuracy: 0.5692,Testing loss: 0.0150
+Epoch #339
+Download only shallow layers
+Upload only shallow layers
+Training client #1
+Round 339, Average loss 0.147
+Training accuracy: 0.5670,Training loss: 0.0148
+Testing accuracy: 0.5692,Testing loss: 0.0149
+Epoch #340
+Download only shallow layers
+Upload only shallow layers
+Training client #5
+Round 340, Average loss 0.147
+Training accuracy: 0.5667,Training loss: 0.0148
+Testing accuracy: 0.5690,Testing loss: 0.0150
+Epoch #341
+Download only shallow layers
+Upload all layers
+Training client #0
+Round 341, Average loss 0.147
+Training accuracy: 0.2612,Training loss: 0.0171
+Testing accuracy: 0.2624,Testing loss: 0.0173
+Epoch #342
+Download all layers
+Upload all layers
+Training client #8
+Round 342, Average loss 0.146
+Training accuracy: 0.4939,Training loss: 0.0152
+Testing accuracy: 0.4997,Testing loss: 0.0154
+Epoch #343
+Download all layers
+Upload all layers
+Training client #9
+Round 343, Average loss 0.147
+Training accuracy: 0.5727,Training loss: 0.0147
+Testing accuracy: 0.5825,Testing loss: 0.0148
+Epoch #344
+Download all layers
+Upload all layers
+Training client #4
+Round 344, Average loss 0.147
+Training accuracy: 0.6089,Training loss: 0.0145
+Testing accuracy: 0.6182,Testing loss: 0.0146
+Epoch #345
+Download all layers
+Upload all layers
+Training client #4
+Round 345, Average loss 0.147
+Training accuracy: 0.6014,Training loss: 0.0146
+Testing accuracy: 0.6118,Testing loss: 0.0146
+Epoch #346
+Download all layers
+Upload only shallow layers
+Training client #5
+Round 346, Average loss 0.148
+Training accuracy: 0.6021,Training loss: 0.0146
+Testing accuracy: 0.6124,Testing loss: 0.0146
+Epoch #347
+Download only shallow layers
+Upload only shallow layers
+Training client #0
+Round 347, Average loss 0.147
+Training accuracy: 0.6022,Training loss: 0.0146
+Testing accuracy: 0.6128,Testing loss: 0.0146
+Epoch #348
+Download only shallow layers
+Upload only shallow layers
+Training client #8
+Round 348, Average loss 0.146
+Training accuracy: 0.6026,Training loss: 0.0145
+Testing accuracy: 0.6133,Testing loss: 0.0146
+Epoch #349
+Download only shallow layers
+Upload only shallow layers
+Training client #7
+Round 349, Average loss 0.147
+Training accuracy: 0.6021,Training loss: 0.0146
+Testing accuracy: 0.6128,Testing loss: 0.0146
+Epoch #350
+Download only shallow layers
+Upload only shallow layers
+Training client #4
+Round 350, Average loss 0.147
+Training accuracy: 0.6022,Training loss: 0.0146
+Testing accuracy: 0.6124,Testing loss: 0.0146
+Epoch #351
+Download only shallow layers
+Upload only shallow layers
+Training client #1
+Round 351, Average loss 0.147
+Training accuracy: 0.6020,Training loss: 0.0146
+Testing accuracy: 0.6120,Testing loss: 0.0146
+Epoch #352
+Download only shallow layers
+Upload only shallow layers
+Training client #4
+Round 352, Average loss 0.147
+Training accuracy: 0.6022,Training loss: 0.0146
+Testing accuracy: 0.6121,Testing loss: 0.0146
+Epoch #353
+Download only shallow layers
+Upload only shallow layers
+Training client #3
+Round 353, Average loss 0.147
+Training accuracy: 0.6025,Training loss: 0.0145
+Testing accuracy: 0.6127,Testing loss: 0.0146
+Epoch #354
+Download only shallow layers
+Upload only shallow layers
+Training client #9
+Round 354, Average loss 0.147
+Training accuracy: 0.6029,Training loss: 0.0145
+Testing accuracy: 0.6130,Testing loss: 0.0146
+Epoch #355
+Download only shallow layers
+Upload only shallow layers
+Training client #4
+Round 355, Average loss 0.147
+Training accuracy: 0.6029,Training loss: 0.0145
+Testing accuracy: 0.6131,Testing loss: 0.0146
+Epoch #356
+Download only shallow layers
+Upload all layers
+Training client #0
+Round 356, Average loss 0.147
+Training accuracy: 0.2602,Training loss: 0.0171
+Testing accuracy: 0.2619,Testing loss: 0.0173
+Epoch #357
+Download all layers
+Upload all layers
+Training client #3
+Round 357, Average loss 0.156
+Training accuracy: 0.5430,Training loss: 0.0150
+Testing accuracy: 0.5484,Testing loss: 0.0151
+Epoch #358
+Download all layers
+Upload all layers
+Training client #1
+Round 358, Average loss 0.153
+Training accuracy: 0.4961,Training loss: 0.0153
+Testing accuracy: 0.5065,Testing loss: 0.0154
+Epoch #359
+Download all layers
+Upload all layers
+Training client #5
+Round 359, Average loss 0.147
+Training accuracy: 0.7009,Training loss: 0.0138
+Testing accuracy: 0.7121,Testing loss: 0.0139
+Epoch #360
+Download all layers
+Upload all layers
+Training client #8
+Round 360, Average loss 0.146
+Training accuracy: 0.7243,Training loss: 0.0137
+Testing accuracy: 0.7381,Testing loss: 0.0137
+Epoch #361
+Download all layers
+Upload only shallow layers
+Training client #5
+Round 361, Average loss 0.147
+Training accuracy: 0.7243,Training loss: 0.0137
+Testing accuracy: 0.7377,Testing loss: 0.0137
+Epoch #362
+Download only shallow layers
+Upload only shallow layers
+Training client #3
+Round 362, Average loss 0.147
+Training accuracy: 0.7239,Training loss: 0.0137
+Testing accuracy: 0.7376,Testing loss: 0.0138
+Epoch #363
+Download only shallow layers
+Upload only shallow layers
+Training client #9
+Round 363, Average loss 0.147
+Training accuracy: 0.7238,Training loss: 0.0137
+Testing accuracy: 0.7370,Testing loss: 0.0138
+Epoch #364
+Download only shallow layers
+Upload only shallow layers
+Training client #0
+Round 364, Average loss 0.147
+Training accuracy: 0.7237,Training loss: 0.0137
+Testing accuracy: 0.7372,Testing loss: 0.0138
+Epoch #365
+Download only shallow layers
+Upload only shallow layers
+Training client #3
+Round 365, Average loss 0.147
+Training accuracy: 0.7243,Training loss: 0.0137
+Testing accuracy: 0.7373,Testing loss: 0.0137
+Epoch #366
+Download only shallow layers
+Upload only shallow layers
+Training client #5
+Round 366, Average loss 0.147
+Training accuracy: 0.7261,Training loss: 0.0137
+Testing accuracy: 0.7391,Testing loss: 0.0137
+Epoch #367
+Download only shallow layers
+Upload only shallow layers
+Training client #2
+Round 367, Average loss 0.147
+Training accuracy: 0.7258,Training loss: 0.0137
+Testing accuracy: 0.7390,Testing loss: 0.0137
+Epoch #368
+Download only shallow layers
+Upload only shallow layers
+Training client #5
+Round 368, Average loss 0.147
+Training accuracy: 0.7263,Training loss: 0.0137
+Testing accuracy: 0.7395,Testing loss: 0.0137
+Epoch #369
+Download only shallow layers
+Upload only shallow layers
+Training client #3
+Round 369, Average loss 0.147
+Training accuracy: 0.7258,Training loss: 0.0137
+Testing accuracy: 0.7385,Testing loss: 0.0137
+Epoch #370
+Download only shallow layers
+Upload only shallow layers
+Training client #6
+Round 370, Average loss 0.148
+Training accuracy: 0.7253,Training loss: 0.0137
+Testing accuracy: 0.7385,Testing loss: 0.0137
+Epoch #371
+Download only shallow layers
+Upload all layers
+Training client #0
+Round 371, Average loss 0.147
+Training accuracy: 0.2462,Training loss: 0.0172
+Testing accuracy: 0.2491,Testing loss: 0.0174
+Epoch #372
+Download all layers
+Upload all layers
+Training client #0
+Round 372, Average loss 0.147
+Training accuracy: 0.2524,Training loss: 0.0172
+Testing accuracy: 0.2536,Testing loss: 0.0173
+Epoch #373
+Download all layers
+Upload all layers
+Training client #0
+Round 373, Average loss 0.147
+Training accuracy: 0.2540,Training loss: 0.0172
+Testing accuracy: 0.2552,Testing loss: 0.0173
+Epoch #374
+Download all layers
+Upload all layers
+Training client #5
+Round 374, Average loss 0.148
+Training accuracy: 0.5378,Training loss: 0.0150
+Testing accuracy: 0.5461,Testing loss: 0.0151
+Epoch #375
+Download all layers
+Upload all layers
+Training client #0
+Round 375, Average loss 0.147
+Training accuracy: 0.5089,Training loss: 0.0153
+Testing accuracy: 0.5156,Testing loss: 0.0154
+Epoch #376
+Download all layers
+Upload only shallow layers
+Training client #5
+Round 376, Average loss 0.147
+Training accuracy: 0.5087,Training loss: 0.0153
+Testing accuracy: 0.5150,Testing loss: 0.0154
+Epoch #377
+Download only shallow layers
+Upload only shallow layers
+Training client #2
+Round 377, Average loss 0.147
+Training accuracy: 0.5084,Training loss: 0.0153
+Testing accuracy: 0.5148,Testing loss: 0.0154
+Epoch #378
+Download only shallow layers
+Upload only shallow layers
+Training client #9
+Round 378, Average loss 0.147
+Training accuracy: 0.5082,Training loss: 0.0153
+Testing accuracy: 0.5147,Testing loss: 0.0154
+Epoch #379
+Download only shallow layers
+Upload only shallow layers
+Training client #5
+Round 379, Average loss 0.147
+Training accuracy: 0.5077,Training loss: 0.0153
+Testing accuracy: 0.5145,Testing loss: 0.0154
+Epoch #380
+Download only shallow layers
+Upload only shallow layers
+Training client #6
+Round 380, Average loss 0.148
+Training accuracy: 0.5077,Training loss: 0.0153
+Testing accuracy: 0.5143,Testing loss: 0.0154
+Epoch #381
+Download only shallow layers
+Upload only shallow layers
+Training client #5
+Round 381, Average loss 0.147
+Training accuracy: 0.5072,Training loss: 0.0153
+Testing accuracy: 0.5139,Testing loss: 0.0154
+Epoch #382
+Download only shallow layers
+Upload only shallow layers
+Training client #0
+Round 382, Average loss 0.147
+Training accuracy: 0.5068,Training loss: 0.0153
+Testing accuracy: 0.5135,Testing loss: 0.0154
+Epoch #383
+Download only shallow layers
+Upload only shallow layers
+Training client #6
+Round 383, Average loss 0.148
+Training accuracy: 0.5063,Training loss: 0.0153
+Testing accuracy: 0.5130,Testing loss: 0.0154
+Epoch #384
+Download only shallow layers
+Upload only shallow layers
+Training client #5
+Round 384, Average loss 0.147
+Training accuracy: 0.5061,Training loss: 0.0153
+Testing accuracy: 0.5128,Testing loss: 0.0154
+Epoch #385
+Download only shallow layers
+Upload only shallow layers
+Training client #1
+Round 385, Average loss 0.147
+Training accuracy: 0.5073,Training loss: 0.0153
+Testing accuracy: 0.5132,Testing loss: 0.0154
+Epoch #386
+Download only shallow layers
+Upload all layers
+Training client #0
+Round 386, Average loss 0.147
+Training accuracy: 0.2406,Training loss: 0.0172
+Testing accuracy: 0.2444,Testing loss: 0.0173
+Epoch #387
+Download all layers
+Upload all layers
+Training client #7
+Round 387, Average loss 0.151
+Training accuracy: 0.4033,Training loss: 0.0159
+Testing accuracy: 0.4099,Testing loss: 0.0161
+Epoch #388
+Download all layers
+Upload all layers
+Training client #1
+Round 388, Average loss 0.147
+Training accuracy: 0.4799,Training loss: 0.0154
+Testing accuracy: 0.4890,Testing loss: 0.0155
+Epoch #389
+Download all layers
+Upload all layers
+Training client #1
+Round 389, Average loss 0.147
+Training accuracy: 0.4475,Training loss: 0.0156
+Testing accuracy: 0.4550,Testing loss: 0.0158
+Epoch #390
+Download all layers
+Upload all layers
+Training client #8
+Round 390, Average loss 0.146
+Training accuracy: 0.6983,Training loss: 0.0139
+Testing accuracy: 0.7087,Testing loss: 0.0139
+Epoch #391
+Download all layers
+Upload only shallow layers
+Training client #3
+Round 391, Average loss 0.148
+Training accuracy: 0.7072,Training loss: 0.0138
+Testing accuracy: 0.7161,Testing loss: 0.0139
+Epoch #392
+Download only shallow layers
+Upload only shallow layers
+Training client #5
+Round 392, Average loss 0.147
+Training accuracy: 0.7074,Training loss: 0.0138
+Testing accuracy: 0.7164,Testing loss: 0.0139
+Epoch #393
+Download only shallow layers
+Upload only shallow layers
+Training client #3
+Round 393, Average loss 0.147
+Training accuracy: 0.7039,Training loss: 0.0138
+Testing accuracy: 0.7129,Testing loss: 0.0139
+Epoch #394
+Download only shallow layers
+Upload only shallow layers
+Training client #3
+Round 394, Average loss 0.147
+Training accuracy: 0.7021,Training loss: 0.0138
+Testing accuracy: 0.7117,Testing loss: 0.0139
+Epoch #395
+Download only shallow layers
+Upload only shallow layers
+Training client #9
+Round 395, Average loss 0.147
+Training accuracy: 0.7019,Training loss: 0.0138
+Testing accuracy: 0.7116,Testing loss: 0.0139
+Epoch #396
+Download only shallow layers
+Upload only shallow layers
+Training client #8
+Round 396, Average loss 0.146
+Training accuracy: 0.7018,Training loss: 0.0138
+Testing accuracy: 0.7109,Testing loss: 0.0139
+Epoch #397
+Download only shallow layers
+Upload only shallow layers
+Training client #4
+Round 397, Average loss 0.147
+Training accuracy: 0.7014,Training loss: 0.0138
+Testing accuracy: 0.7105,Testing loss: 0.0139
+Epoch #398
+Download only shallow layers
+Upload only shallow layers
+Training client #2
+Round 398, Average loss 0.147
+Training accuracy: 0.7013,Training loss: 0.0138
+Testing accuracy: 0.7100,Testing loss: 0.0139
+Epoch #399
+Download only shallow layers
+Upload only shallow layers
+Training client #8
+Round 399, Average loss 0.146
+Training accuracy: 0.7012,Training loss: 0.0138
+Testing accuracy: 0.7099,Testing loss: 0.0139
